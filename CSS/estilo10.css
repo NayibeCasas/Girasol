@@ -1,0 +1,338 @@
+
+
+.grande{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+	width: 65%;
+	height: 420px;
+	
+}
+.principal{
+	
+
+	width: 430px;
+	height: 400px;
+	padding: 20px;
+box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.fondo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		width: 230px;
+	   	height: 40px;
+	   	box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+	   	background:#f79c1d ;
+}
+
+.div2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+	
+}
+.botones{
+padding: 5px;
+display: flex;
+ justify-content: space-around;
+  flex-wrap: wrap;
+    width: 60%;
+ margin-left:78px;
+ margin-top:10px;
+  overflow: hidden;
+  height:300px;
+box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+background: #f79c1d;
+
+  
+}
+#n1{
+
+	
+	   	width: 215px;
+	   	height: 30px;
+	   	padding: 10px;
+		
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+		
+		border: 0;
+		background-color: white;
+
+
+}
+	.binario{
+
+	   	width: 100px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 12px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.octal{
+	
+	   	width: 100px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 12px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.hexadecimal{
+	
+	   	width: 200px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 12px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+
+.suma{
+
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 30px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+
+.resta{
+
+		
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 30px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.multi{
+
+		
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 30px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.divi{
+
+		
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 30px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+
+.inverso{
+	
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 20px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.raiz{
+	
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 20px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.cuadrado{
+	
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 20px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.pi{
+
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 20px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+.elevado{
+
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 20px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+}
+.punto{
+	
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 20px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+
+}
+#igual{
+
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 20px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+#ac{
+		
+	   	width: 50px;
+	   	height: 50px;
+	   	padding: 10px;
+		
+		font-family: 'Syncopate',sans-serif;
+	  	font-size: 20px;
+		-moz-box-shadow: inset 0 0 5px 5px #888;
+		-webkit-box-shadow: inset 0 0 5px 5px#888;
+		box-shadow: inset 0 0 5px 5px #dcedc1;
+		border: 0;
+		background-color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+
+}
+@media screen and (max-width: 700px){
+
+}
+  
+@media screen and (max-width: 500px){
+		.n1{width:195px;
+	   	height: 30px;
+	   	padding: 10px;}
+	   	.botones{
+			
+    		width: 100%;
+ 		margin-left:5px;
+ 		
+  		height:300px;
+		
+
+  
+}
+  }
+
+
+
+

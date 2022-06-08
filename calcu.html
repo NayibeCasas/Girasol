@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=debvice-width,initial-scale=1.0">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo12.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilo10.css">
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Kaushan+Script&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+</head>
+<body class="hidden" onLoad="inic()">
+	<div class="centrado" id="onload">
+		<div class="lds-circle"><div></div></div>
+	</div>
+	<header>
+		<nav id="nav" class="nav1">
+			<div  class="contenedor-nav">
+				<div class="logo">
+					<img src="imagenes/yo2.png">
+				</div>
+
+				<div class="enlaces" id="enlaces">
+				<a href="" id="enlace-inicio" class="btn-header">Inicio</a>
+				<a href="" id="enlace-fotos" class="btn-header">Calculadora</a>
+				<a href="" id="enlace-contacto" class="btn-header">Contacto</a>
+				<a href="nayis.html" >Nayis</a>
+				<div id="reloj"></div>
+				<div id="fecha"  ></div> 
+				
+			</div>
+			<div class="icono" id="open">
+				<span>&#9776;</span>
+			</div>
+			</div>
+		</nav>
+		<div class="textos">
+			<h1>Calculadora</h1>
+			<h2 id="saludo"></h2>
+			
+
+		</div>
+	</header>
+	<main>
+		
+		<section class="work contenedor" id="fotos">
+			<p class="after">Prueba la calculadora,realiza operaciones basicas y covierte numeros a : binario,octal y hexadecimal.</p>
+			<div class="grande">
+			<div class="principal">
+				<!--<button id="result" onclick="n1()" ></button>-->
+
+	<div class="fondo"><input type="text" id="n1" onclick="eliminar()"></div>
+	<div class="dic2">
+	<div class="botones">
+	<button class="suma" onclick="suma()">+</button>
+	<button  class="resta" onclick="resta()">-</button>
+	<button class="multi" onclick="multi()">*</button>
+	<button class="divi" onclick="divi()">/</button>  
+	<button class="cuadrado" onclick="cuadrado()">x<sup>2</sup></button>
+    <button class="inverso" onclick="inverso()"> 1/x </button>  
+    
+    <button class="raiz" onClick="raiz()">√</button>
+  	<button class="pi" onClick="pi()">π</button>
+  	<button class="elevado" onClick="elevado()">x<sup>y</sup></button>
+  	<button class="punto" onClick="punto()">.</button>
+  	<button id="igual" onclick="calcu()">=</button>
+  			
+  	<button id="ac" onClick="vaciar()">AC</button>
+  	<button class="binario" onClick="binario()">Binario</button>
+  	<button class="octal" onClick="octal()">Octal</button>
+  	<button class="hexadecimal" onClick="hexadecimal()">Hexadecimal</button>
+  	
+				</div>
+			</div>
+		</div>
+
+	</div>
+			
+				
+		</section>
+	</main>
+	<footer id="contacto">
+		<div class="footer contenedor">
+			<div class="marca-logo">
+				<img src="imagenes/yo.png">
+			</div>
+			<div class="iconos" >
+				<a href="https://www.facebook.com/nayibepatricia.casaspelaez.5" target="_blank">
+					<i class="fab fa-facebook-square"  ></i>
+				</a>
+				<a href="https://twitter.com/nosoylacorrecta?s=08" target="_blank">
+						<i class="fab fa-twitter-square"></i>
+				</a>
+				
+				<a href="https://www.instagram.com/p/B7Cg2vXhPUWvCYRhC2HFGUhT0Tpb_um54WOZh40/?igshid=erjphjg0eu45" target="_blank">
+					
+				<i class="fab fa-instagram"></i>
+
+				</a>
+			
+
+			</div>
+			<p> Todo o Nada, pero nunca a medias. </p>
+		</div>
+		
+	</footer>
+	
+	<script src="JS/main15.js"></script>
+	 <script src="JS/jquery.js"></script>
+  <script src="JS/filtro2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=debvice-width,initial-scale=1.0">
+	<title>Nayis</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo2.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Kaushan+Script&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+</head>
+<body class="hidden" onLoad="inic()">
+	<div class="centrado" id="onload">
+		<div class="lds-circle"><div></div></div>
+	</div>
+	<header>
+		<nav id="nav" class="nav1">
+			<div  class="contenedor-nav">
+				<div class="logo">
+					<a href="index.html"><img src="imagenes/yo2.png"></a>
+				</div>
+
+				<div class="enlaces" id="enlaces">
+				<a href="" id="enlace-inicio" class="btn-header">Inicio</a>
+				<a href="" id="enlace-yo" class="btn-header">Nayis</a>
+				<a href="" id="enlace-familia" class="btn-header">Familia</a>
+				<a href="" id="enlace-web" class="btn-header">Paginas Web</a>
+				<a href="" id="enlace-fotos" class="btn-header">Fotografias</a>
+				<a href="" id="enlace-contacto" class="btn-header">Contacto</a>
+				<div id="reloj"></div>
+				<div id="fecha"  ></div> 
+				
+			</div>
+			<div class="icono" id="open">
+				<span>&#9776;</span>
+			</div>
+			</div>
+		</nav>
+		<div class="textos">
+			<h1>¡Hola soy Nayibe Casas!</h1>
+				<h2 id="saludo"></h2>
+			<h2>Bienvenidos a mi sitio web</h2>
+			<a href="mapa.html" id="otro">ubicaciòn</a>
+
+		</div>
+	</header>
+	<main>
+		<section class="team contenedor " id="yo">
+			<h3>Datos Curiosos</h3>
+			<p class="after">Un girasol llamado felicidad</p>
+			<div class="card">
+				<div class="content-card1">
+					<div class="people1">
+						<img src="imagenes/y2.jpeg">
+					</div>
+					<div class="texto-team1">
+						<h4>Soy yo </h4><br>
+
+						<p class="des">Estudio Ingenieria de Sistemas, estoy en tercer semestre y tengo 20 años.</p>
+					</div>
+				</div>
+				<div class="content-card1">
+					<div class="people1">
+						<img src="imagenes/y3.jpeg">
+					</div>
+					<div class="texto-team1">
+						<h4>Disfruto de la naturaleza</h4><br>
+
+						<p >No existe un lugar mas seguro y lleno de paz que el campo .</p>
+					</div>
+				</div>
+				<div class="content-card1">
+					<div class="people1">
+						<img src="imagenes/y1.jpeg">
+					</div>
+					<div class="texto-team1">
+						<h4>Amo el arte</h4><br>
+
+						<p >El arte es todo lo que soy.</p>
+					</div>
+				</div>
+				
+				
+			</div>
+		</section>
+		<section class="team contenedor " id="familia">
+			<h3>Mi familia</h3>
+			<p class="after">Ellos son el motor de mi vida</p>
+			<div class="card">
+				<div class="content-card">
+					<div class="people">
+						<img src="imagenes/luis.jpeg">
+					</div>
+					<div class="texto-team">
+						<h4>Luis Casas</h4><br>
+
+						<p class="des">El es mi papá,tiene 53 años,trabaja en doña leche manejando un camión .</p>
+					</div>
+				</div>
+				<div class="content-card">
+					<div class="people">
+						<img src="imagenes/sandra.jpeg">
+					</div>
+					<div class="texto-team">
+						<h4>Sandra Pelaez</h4><br>
+
+						<p >Ella es mi mamá , tiene 42 años, le gusta mucho probar nuevas recetas .</p>
+					</div>
+				</div>
+				<div class="content-card">
+					<div class="people">
+						<img src="imagenes/pipe.jpeg">
+					</div>
+					<div class="texto-team">
+						<h4>Luigi Casas</h4><br>
+
+						<p >El es mi hermano del medio , tiene 16 años y le gustaria estudiar ingenieria de software.</p>
+					</div>
+				</div>
+				<div class="content-card">
+					<div class="people">
+						<img src="imagenes/gero.jpeg">
+					</div>
+					<div class="texto-team">
+						<h4>Santiago Casas</h4><br>
+						<p >El es mi hermano menor, tiene 11 años y le gusta armar estructuras de LEGO.</p>
+					</div>
+				</div>
+				<div class="content-card">
+					<div class="people">
+						<img src="imagenes/juan.jpeg">
+					</div>
+					<div class="texto-team">
+						<h4>Juan  Carlos Ruiz</h4><br>
+
+						<p >El es mi novio , tiene 19 años , tambien estudia ingenieria de sistemas , le gusta montar bici y armar cubos rubick.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about" id="web">
+			<div class="contenedor">
+				<h3>Mi trabajo de programacion</h3>
+				<p class="after">Has clic en la imagnes </p>
+				<div class="trabajos">
+					<div class="caja-trabajos" >
+						<a href="calcu.html"><img src="imagenes/c.png" class="arreglar"></a>
+						<h4>CALCULADORA</h4>
+						<p>Prueba mi calculadora con funciones basicas y conversion de numeros.</p>
+
+					</div>
+					<div class="caja-trabajos">
+						<a href="principal.html"><img src="imagenes/p.png" class="arreglar"></a>
+						<h4>PUZZLE</h4>
+						<p>Ingresa y resuelve el puzzle que mas te guste.</p>
+
+					</div>
+					<div class="caja-trabajos">
+						<a href="arte.html"><img src="imagenes/a.png" class="arreglar"></a>
+						<h4>ARTE</h4>
+						<p>Conoce algunas de mis pinturas y mis frases favoritas. </p>
+
+					</div>
+					<div class="caja-trabajos">
+						<a href="principal2.html"><img src="imagenes/g.png" class="arreglar"></a>
+						<h4>GALERIA</h4>
+						<p>Conoce mis paginas favoritas y agrega las tuyas .</p>
+
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<section class="work contenedor" id="fotos">
+			<h3>Fotografias</h3>
+			<p class="after">"El corazòn y la mente son la verdadera lente de la càmara " - Yousuf Karsh</p>
+			<div class="botones-work">
+				<ul>
+					<li class="filter active" data-nombre='todos'>Todo</li>
+					<li class="filter" data-nombre='familia'>Familia</li>
+					<li class="filter" data-nombre='abby'>Abby</li>
+					<li class="filter" data-nombre='amor'>Amor</li>
+					<li class="filter" data-nombre='amigos'>Amigos</li>
+					<li class="filter" data-nombre='paisajes'>Paisajes</li>
+
+				</ul>
+			</div>	
+			<div class="galeria-work">
+				<div class="cont-work familia">
+					<div class="img-work">
+						<img src="imagenes/f1.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Semana Santa 2018
+						</h4>
+						
+					</div>
+
+				</div>
+				<div class="cont-work familia">
+					<div class="img-work">
+						<img src="imagenes/f2.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Visita a mi primo en el INPEC
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work familia">
+					<div class="img-work">
+						<img src="imagenes/f3.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Cumpleaños de mi tio 
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work familia">
+					<div class="img-work">
+						<img src="imagenes/f4.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Virgen del Carmen 2019
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work familia">
+					<div class="img-work">
+						<img src="imagenes/f5.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Diciembre de 2019
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work familia">
+					<div class="img-work">
+						<img src="imagenes/f6.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							FIesta fin de año 2019
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work abby">
+					<div class="img-work">
+						<img src="imagenes/b1.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Primer dia de abby en casa
+						</h4>
+						
+					</div>
+				</div>
+				<div class="cont-work abby">
+					<div class="img-work">
+						<img src="imagenes/b2.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Nuestra primera foto juntas
+						</h4>
+						
+					</div>
+				</div>
+				<div class="cont-work abby">
+					<div class="img-work">
+						<img src="imagenes/b3.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Abby probando su nuevo saco
+						</h4>
+						
+					</div>
+				</div>
+				<div class="cont-work abby">
+					<div class="img-work">
+						<img src="imagenes/b4.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Molestando a abby 
+						</h4>
+						
+					</div>
+				</div>
+				<div class="cont-work abby">
+					<div class="img-work">
+						<img src="imagenes/b5.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Abby en sesion de fotos
+						</h4>
+						
+					</div>
+				</div>
+				<div class="cont-work abby">
+					<div class="img-work">
+						<img src="imagenes/b6.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Abby en sesion de fotos
+						</h4>
+						
+					</div>
+				</div>
+				<div class="cont-work amor">
+					<div class="img-work">
+						<img src="imagenes/j1.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Noviembre de 2019
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amor">
+					<div class="img-work">
+						<img src="imagenes/j2.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Caminata a la punta de la teta 2020
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amor">
+					<div class="img-work">
+						<img src="imagenes/j3.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Dia de peliculas 
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amor">
+					<div class="img-work">
+						<img src="imagenes/j4.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Monserrate 2020
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amor">
+					<div class="img-work">
+						<img src="imagenes/j5.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Mi cumpleaños 2020
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amor">
+					<div class="img-work">
+						<img src="imagenes/j6.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Nuestra ultima foto
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amigos">
+					<div class="img-work">
+						<img src="imagenes/a1.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Las cinco 2019
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amigos">
+					<div class="img-work">
+						<img src="imagenes/a2.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Mi mejor amiga 
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amigos">
+					<div class="img-work">
+						<img src="imagenes/a3.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Mi cumpleaños 2020
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amigos">
+					<div class="img-work">
+						<img src="imagenes/a4.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Mi amigo Nicolato el  filosofo
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amigos">
+					<div class="img-work">
+						<img src="imagenes/a5.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Seguimos siendo las cinco 2020
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work amigos">
+					<div class="img-work">
+						<img src="imagenes/a6.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							My Team 
+						</h4>
+						
+					</div>
+					
+				</div>
+				
+				<div class="cont-work paisajes">
+					<div class="img-work">
+						<img src="imagenes/p1.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Caminata soaga 2018
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work paisajes">
+					<div class="img-work">
+						<img src="imagenes/p2.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Casa de mi abue 2019
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work paisajes">
+					<div class="img-work">
+						<img src="imagenes/p3.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Caminata divino niño 2018
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work paisajes">
+					<div class="img-work">
+						<img src="imagenes/p4.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Laguna del Neusa 2019
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work paisajes">
+					<div class="img-work">
+						<img src="imagenes/p5.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Atardecer Tausa 2019
+						</h4>
+						
+					</div>
+					
+				</div>
+				<div class="cont-work paisajes">
+					<div class="img-work">
+						<img src="imagenes/p6.jpg">
+					</div>
+					<div class="textos-work">
+						<h4>
+							Bogotà Monserrate 2020
+						</h4>
+						
+					</div>
+					
+					
+							
+			</div>		
+		</section>
+	</main>
+	<footer id="contacto">
+		<div class="footer contenedor">
+			<div class="marca-logo">
+				<img src="imagenes/yo.png">
+			</div>
+			<div class="iconos" >
+				<a href="https://www.facebook.com/nayibepatricia.casaspelaez.5" target="_blank">
+					<i class="fab fa-facebook-square"  ></i>
+				</a>
+				<a href="https://twitter.com/nosoylacorrecta?s=08" target="_blank">
+						<i class="fab fa-twitter-square"></i>
+				</a>
+				
+				<a href="https://www.instagram.com/p/B7Cg2vXhPUWvCYRhC2HFGUhT0Tpb_um54WOZh40/?igshid=erjphjg0eu45" target="_blank">
+					
+				<i class="fab fa-instagram"></i>
+
+				</a>
+			
+
+			</div>
+			<p> Todo o Nada, pero nunca a medias. </p>
+		</div>
+		
+	</footer>
+	<audio id="win" src="rompecabezas/sonido.mp3"></audio>
+	<script src="JS/main.js"></script>
+	 <script src="JS/jquery.js"></script>
+  <script src="JS/filtro.js"></script>
+
+</body>
+</html>
